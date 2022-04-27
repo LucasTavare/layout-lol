@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Lobster;
+    src: url(fontes/Lobster-Regular.ttf);
+}
+
+/* html{
+    background-color: #2342DB;
+}
+
+body{
+    background-color: whitesmoke;
+    width: 80%;
+    
+} */
+*{
+    box-sizing: border-box;
+}
+body, textarea{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.navbar-container {
+    background-color: #000;
+    float: left;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-align: center;
+}
+
+
+.navbar-container ul{
+    list-style: none;
+    float: left;
+}
+
+.navbar-container ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.navbar-container ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-container ul li a:hover{
+    color: #000;
+    background-color: white;
+    padding: 18px;
+}
+
+main{
+    height: auto;
+}
+
+#slide{
+    background-color: aqua;
+    height: 800px;
+    float: left;
+    width: 100%;
+}
+
+#destaques{ 
+    height: auto;
+    float: left;
+    width: 100%;
+}
+
+#rotas{
+    height: 800px;
+    float: left;
+    width: 100%;
+}
+
+footer{
+    height: 120px;
+    background-color: crimson;
+    float: left;
+    width: 100%;
+}
+
+.logo{
+    height: 120px;
+    padding: 0px;
+    margin-left: 45%;
+}
+
+.destaques-colunas{
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+.img-destaques{
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+
+figure {
+    background-color: darkturquoise;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    float: left;
+    width: 100%;
+    border-radius: 4 solid black;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    height: 520px;
+    background-color: black;
+    font-size: 14px;
+}
+
+figure:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.img-destaques:hover{
+    filter: brightness(110%);
+}
+
+.subtitulos{
+    font-family: Lobster;
+    padding-left: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.nome-destaque{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rotas-colunas{
+    width: 20%;
+    float: left;
+    padding: 15px;
+}
+
+.img-rotas{
+    width: 100%;
+    height: 300px;
+    float: left;
+}
