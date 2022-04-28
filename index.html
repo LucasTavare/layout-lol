@@ -9,7 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <script src="js/javascript.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
 
 </head>
 
@@ -26,7 +29,7 @@
                     <ul>
                         <li><a href="#slide">Campeões</a></li>
                         <li><a href="#destaques">Campeões Destaques</a></li>
-                        <li><a href="#rotas">outras rotas</a></li>
+                        <li><a href="#rotas">Rotas</a></li>
                     </ul>
 
                 </div>
@@ -36,10 +39,32 @@
         </header>
 
         <main>
+            
+            <div id="banner">
 
-            <div id="slide">
-
-
+                <div id="mainCarousel" class="carousel mb-4 w-10/12 max-w-xl mx-auto">
+                    <div class="carousel__slide">
+                      <img class="img-banner" data-lazy-src="img/yone.jpg"/>
+                    </div>
+                    <div class="carousel__slide">
+                      <img class="img-banner" data-lazy-src="img/renek.jpg" />
+                    </div>
+                    <div class="carousel__slide">
+                      <img class="img-banner" data-lazy-src="img/zed.jpg" />
+                    </div>
+                    <div class="carousel__slide">
+                      <img class="img-banner" data-lazy-src="img/lux.jpg" />
+                    </div>
+                    <div class="carousel__slide">
+                      <img class="img-banner" data-lazy-src="img/fiddle.png" />
+                    </div>
+                    <div class="carousel__slide">
+                      <img class="img-banner" data-lazy-src="img/nocturne.jpg" />
+                    </div>
+                    <div class="carousel__slide">
+                      <img class="img-banner" data-lazy-src="img/ahri.jpg" />
+                    </div>
+                  </div>
 
             </div>
 
@@ -86,48 +111,60 @@
                 <h2 class="subtitulos">Rotas</h2>
 
                 <div class="rotas-colunas">
-                    <figure>
+                    <figure class="figure-rotas">
                         <img class="img-rotas" src="img/top.png" alt="">
-                        <figcaption>
-                            
+                        <figcaption class="fig-rotas">
+                            <a class="a-rotas" href="https://www.techtudo.com.br/noticias/2018/09/topo-no-lol-veja-funcao-do-top-laner-melhores-champions-e-pro-players-esports.ghtml" target="_blank">Top lane</a>
                         </figcaption>
                     </figure>
                 </div>
 
                 <div class="rotas-colunas">
-                    <figure>
-                        <img class="img-rotas" src="img/jungle.jpg" alt="">
-                        <figcaption>
-                            
+                    <figure class="figure-rotas">
+                        <img class="img-rotas" src="img/jungle.png" alt="">
+                        <figcaption class="fig-rotas">
+                            <a class="a-rotas" href="https://leagueoflegends.fandom.com/wiki/Jungling" target="_blank">Jungle</a> 
                         </figcaption>
                     </figure>
                 </div>
 
                 <div class="rotas-colunas">
-                    <figure>
-                        <img class="img-rotas" src="img/mid.jpg" alt="">
-                        <figcaption>
-                            
+                    <figure class="figure-rotas">
+                        <img class="img-rotas" src="img/mid.png" alt="">
+                        <figcaption class="fig-rotas">
+                            <a class="a-rotas" href="https://ge.globo.com/esports/lol/zantins/noticia/lol-dicas-para-jogar-bem-na-mid-lane.ghtml" target="_blank">Mid lane</a> 
                         </figcaption>
                     </figure>
                 </div>
 
                 <div class="rotas-colunas">
-                    <figure>
-                        <img class="img-rotas" src="img/BOT.jfif" alt="">
-                        <figcaption>
-                            
+                    <figure class="figure-rotas">
+                        <img class="img-rotas" src="img/adc.png" alt="">
+                        <figcaption class="fig-rotas">
+                            <a class="a-rotas" href="https://ge.globo.com/esports/lol/noticia/lol-como-jogar-de-adc-veja-dicas-para-mandar-bem.ghtml" target="_blank">Bot lane</a> 
                         </figcaption>
                     </figure>
                 </div>
                 <div class="rotas-colunas">
-                    <figure>
+                    <figure class="figure-rotas">
                         <img class="img-rotas" src="img/sup.png" alt="">
-                        <figcaption>
-                            
+                        <figcaption class="fig-rotas" target="_blank">
+                            <a class="a-rotas" href="https://www.techtudo.com.br/noticias/2018/08/league-of-legends-como-jogar-de-suporte-support-guialol.ghtml" target="_blank">Sup</a> 
                         </figcaption>
                     </figure>
                 </div>
+
+            
+
+                <h3 class="texto-rotas">
+
+                    Para avançar, os times precisam disputar espaço nas 3 rotas
+                    (lanes) disponíveis no mapa: a superior(top), a do meio (mid)<br> 
+                    e a inferior (bot). A área situada entre as rotas se chama selva
+                    (jungle). Em cada rota os times contam com torres defensivas que<br>
+                    precisam ser destruídas no caminho até o Nexus.
+
+                </h3>
 
             </div>
 
@@ -135,11 +172,16 @@
 
         <footer>
 
+                <p>&copy; Desenvolvido por: Lucas Protestato Tavares</span></p>
+                <small>2022</small>
+
         </footer>
 
 
     </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="js/javascript.js"></script>
 
 </body>
 
